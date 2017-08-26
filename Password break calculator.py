@@ -32,8 +32,28 @@ def calcula():
     print ("total de senhas a ser testadas ", total,"\n") if i > m else ("erro!!")
     
     def calculoDoTempo():
+        print("Em uma velocidade de 500 senhas testadas por segundos levaria um total de :")
+        segu = total/500
+        minu = segu/60
+        segu = segu%60
+        hora = minu/60
+        dia = hora/24
+        ano = dia/365
+        if (minu <= 59):
+            print("%i minutos %i segundos" % (minu, segu))
+        elif (minu > 59 and hora <24):
+            minu = minu%60
+            print("%i horas %i minutos %i segundos"% (hora, minu, segu))
+        elif (hora >= 24 and dia<365):
+            minu = minu%60
+            hora = hora%24
+            print("%i dia %i horas %i minutos %i segundos"% (dia, hora, minu, segu))
+        elif (dia >= 365):
+            minu = minu%60
+            hora = hora%24
+            dia = dia%365
+            print("%i anos %i dias %i horas %i minutos %i segundos"% (ano, dia, hora, minu, segu))
         
-        pass
     calculoDoTempo()
 calcula()
 input()
