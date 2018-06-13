@@ -10,7 +10,7 @@ class App:
         self.sequence = [ImageTk.PhotoImage(img)
                                 for img in ImageSequence.Iterator(
                                     Image.open(
-                                        r'C:\Users\ray\Desktop\PYYYTTONN ALL\FONTE MIND OVER\resources\PY\rena\globo.gif'))]
+                                        r'C:\Users\ray\Desktop\globo.gif'))]
         self.image = self.canvas.create_image(100,100, image=self.sequence[0])
         self.animating = True
         self.animate(0)
