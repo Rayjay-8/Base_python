@@ -1,0 +1,24 @@
+_____Cliente_____
+lucas oliveira
+lucas@gmail.com
+(44)93332-4172
+1
+0
+12/12/2019
+14/12/2019
+_____Cliente_____
+ronaldo silva
+ronaldd@gmail.com
+(44)3333-3333
+2
+1
+12/12/2019
+16/12/2019
+_____Cliente_____
+rafael
+rafael@gmail.com
+(44)2222-2222
+4
+0
+13/12/2019
+19/12/2019
